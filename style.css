@@ -1,0 +1,201 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    height: 13%;
+    width: 100%;
+    background-color: rgb(249, 253, 253);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo{
+    height: 70%;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text{
+    color: rgb(0, 0, 147);
+    display: flex;
+}
+
+.text:hover{
+    color: rgb(0, 176, 211);
+}
+
+#contactdetails{
+    font-weight: lighter;
+}
+
+.icon{
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon:hover{
+    background-color: lightblue;
+}
+
+#login{
+    display: flex;
+    border: radius 50%;;
+}
+
+#login:hover{
+    background-color: lightblue;
+}
+
+#try{
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+}
+
+#try:hover{
+    background-color: rgb(0, 51, 0);
+}
+
+#fakeHeader{
+    height: 13%;
+    width: 100%;
+    background-color: white;
+    
+}
+
+#page1{
+    height: 87%;
+    width: 100%;
+}
+
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(0, 0, 131);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#strip u{
+    font-weight: lighter;
+    margin-left: 20px;
+}
+
+#content{
+    width: 100%;
+    height: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#box1{
+    height: 90%;
+    width: 47%;
+    background-color: white;
+}
+
+
+#box1 h1{
+    font-weight: 600;
+    color: rgb(0, 0, 80);
+    font-size: 50px;
+    margin: 30px 10px;
+}
+
+#box1 p{
+    font-size: x-large;
+    margin: 10px;
+    font-weight: lighter;
+    margin: 30px 10px;
+}
+
+#box2{
+    height: 90%;
+    width: 47%;
+    background-color: white;
+}
+
+#box2 img{
+    height: 100%;
+    width: 100%;
+}
+
+#heading{
+    width: 100%;
+    height: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    color: rgb(0, 0, 130);
+}
+
+#heading h1{
+    font-weight: 600;
+}
+
+
+
+#button{
+    display: flex;
+}
+
+#button1{
+    text-align: center;
+    margin: 10px;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(89, 213, 255);
+}
+
+#button1:hover{
+    background-color: rgb(0, 66, 88);
+}
+
+#button2{
+    text-align: center;
+    margin: 10px;
+    padding: 10px 30px;
+    color: rgb(89, 213, 255);
+    border: 1px solid  rgb(89, 213, 255);
+}
+
+#button2:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue ;
+    color:rgb(0, 66, 88) ;
+}
+
+#page2{
+    height: 87%;
+    width: 100%;
+    background-color: white;
+}
+#page2 img{
+    height: 100%;
+    width: 100%;
+}
