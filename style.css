@@ -189,13 +189,3 @@ html,body{
     background-color: lightblue ;
     color:rgb(0, 66, 88) ;
 }
-
-#page2{
-    height: 87%;
-    width: 100%;
-    background-color: white;
-}
-#page2 img{
-    height: 100%;
-    width: 100%;
-}
